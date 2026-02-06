@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/">
+      <i class="bi bi-cup-hot"></i>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
+        <a class="nav-link active" aria-current="page" routerLink="/perfil" routerLinkActive="active">Perfil</a>
+        <a class="nav-link" routerLink="/documentacion" routerLinkActive="active">Documentación</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="documentacion-container">
+  <div class="carousel-wrapper">
+    <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a href="https://angular.dev/" target="_blank"><img src="assets/images/carousel1.png" class="d-block w-100" alt="Carousel 1"></a>
+      <p align="center">FRAMEWORK ANGULAR</p>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.typescriptlang.org/" target="_blank"><img src="assets/images/carousel2.png" class="d-block w-100" alt="Carousel 2"></a>
+      <p align="center">TypeScript</p>
+    </div>
+    <div class="carousel-item">
+      <a href="https://nodejs.org/es" target="_blank"><img src="assets/images/carousel3.png" class="d-block w-100" alt="Carousel 3"></a>
+      <p align="center">Node.js</p>
+    </div>
+    <div class="carousel-item">
+      <a href="https://www.npmjs.com/" target="_blank"><img src="assets/images/carousel4.png" class="d-block w-100" alt="Carousel 4"></a>
+      <p align="center">NPM</p>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+  </div>
+</main>
